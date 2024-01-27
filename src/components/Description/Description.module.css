@@ -2,24 +2,34 @@
 
 .container{
     display: flex;
+    justify-content: space-between;
     color: var(--color-text);
     margin-top: 20px;
+    z-index: 1;
 }
 
 .myDescription{
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
-    margin: 20px;
+    margin: 0 5%;
+    width: 50;
 }
 
-.myDescription h3{
+.myDescription h1{
     letter-spacing: 1.75px;
-    font-size: 30px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: var(--font-roboto);
 
 }
 
 .myDescription p{
-    font-size: 20px;
-    font-weight: 300px;
+    font-size: 30px;
+    font-family: var(--font-roboto);
     margin: 10px 0px;
+}
+
+.myImage img{
+    z-index: 1;
 }
