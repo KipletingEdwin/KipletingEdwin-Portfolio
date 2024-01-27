@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-        <a className={styles.title} href="/">Portfolio</a>
+        <a className={styles.title} href="/"> My Portfolio</a>
         <div className={styles.menu}>
           <img className={styles.menuBtn} src={menuOpen ? closeIcon : menuIcon} alt='menuBar' onClick={() => setMenuOpen(!menuOpen)}/>
           <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)} >
@@ -18,7 +18,6 @@ function Navbar() {
             <li> <a href='#projects'></a> Projects </li>
             <li> <a href='#contact'></a> Contact </li>
           </ul>
-
         </div>
     </nav>
   )
