@@ -2,15 +2,15 @@ import styles from "./About.module.css";
 
 import React from "react";
 import server from "../../assets/about/server.png";
-import frontend from "../../assets/about/frontend.png";
+import frontend from "../../assets/about/front.png";
 
 function About() {
   return (
     <div className={styles.container} id="about">
       <h2> About </h2>
       <div className={styles.aboutMe}>
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
+        <ul>
+          <li>
             <img src={frontend} alt="frontend" />
             <div className={styles.aboutItemText}>
               <h3> FrontEnd Developer</h3>

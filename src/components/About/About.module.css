@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: center; */
+    margin: 0% 10%;
     /* background-color: red; */
 }
 
@@ -39,13 +39,13 @@
     display: flex;
     flex-direction: row;
     padding: 20px;
-    background-color: red;
+    /* background-color: red; */
     margin-left: 30%;
     /* background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42)0%, rgba(255, 255, 255, 0) 100%); */
 }
 
 .aboutMe ul li img{
-    background-color: green;
+    /* background-color: green; */
     padding: 20px;
 }
 
@@ -58,4 +58,23 @@
 .aboutMe ul li p{
     font-size: 25px;
     margin-left: 5%;
+}
+
+@media screen and (max-width:730px){
+    .container{
+        margin-top: 10%;
+    }
+
+    .aboutMe{
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .aboutMe ul{
+        background-color: green;
+    } */
+
+    .aboutMe ul li{
+        margin: 0;
+    }
 }

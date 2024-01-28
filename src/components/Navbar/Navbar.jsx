@@ -26,9 +26,6 @@ function Navbar() {
             <a href="#about"></a> About
           </li>
           <li>
-            <a href="#experience"></a> Experience
-          </li>
-          <li>
             <a href="#projects"></a> Projects
           </li>
           <li>
