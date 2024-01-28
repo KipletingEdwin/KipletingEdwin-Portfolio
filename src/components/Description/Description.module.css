@@ -30,6 +30,31 @@
     margin: 10px 0px;
 }
 
+.myImage{
+    display: flex;
+    margin-right: 5%;
+}
+
 .myImage img{
+    margin: 0 -10%;
     z-index: 1;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myImage{
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .myDescription p{
+        font-size: 20px;
+    }
+    
 }
