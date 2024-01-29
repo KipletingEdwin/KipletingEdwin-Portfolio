@@ -20,9 +20,9 @@
     margin-top: 3%;
 }
 
-.contactForm{
+/* .contactForm{
     background-color: purple;
-}
+} */
 
 .contactFormInputs{
     margin-left: 5%;
@@ -30,11 +30,42 @@
 }
 
 .contactFormInputs ul {
-    background-color: red;
+    /* background-color: red; */
     list-style: none;
 }
 
 .contactFormInputs ul li, textarea{
     background-color: green;
     padding: 5px 0%;
+}
+
+.contactFormInputs ul li input{
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    border: 0;
+    color: #fff;
+}
+
+.contactFormInputs ul li textarea{
+    border: 0;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    background: #115173;
+    padding: 20px;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+
+.flat-button{
+    color: #ffd700;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd700;
 }
