@@ -5,7 +5,28 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-        <h1> Contact </h1>
+        <h3> Fell free to reach out to me </h3>
+        <div className={styles.contactForm}>
+            <form>
+                <ul>
+                    <li>
+                        <input type='text' name='name' placeholder='Name' required/>
+                    </li>
+
+                    <li>
+                        <input type='email' name='email' placeholder='Email' required/>
+                    </li>
+
+                    <li>
+                        <input type='text' name='subject' placeholder='Subject' required/>
+                    </li>
+
+                    <textarea placeholder='Message' name='message' required></textarea>
+
+                </ul>
+            </form>
+
+        </div>
     </div>
   )
 }
