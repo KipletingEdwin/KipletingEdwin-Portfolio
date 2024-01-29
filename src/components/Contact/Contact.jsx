@@ -4,10 +4,11 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>
-        <h3> Fell free to reach out to me </h3>
+    <div className={styles.container}>
+        <h3>Contact</h3>
+        <p> Fell free to reach out to me! </p>
         <div className={styles.contactForm}>
-            <form>
+            <form className={styles.contactFormInputs}>
                 <ul>
                     <li>
                         <input type='text' name='name' placeholder='Name' required/>
@@ -21,7 +22,15 @@ function Contact() {
                         <input type='text' name='subject' placeholder='Subject' required/>
                     </li>
 
-                    <textarea placeholder='Message' name='message' required></textarea>
+                    <li>
+                         <textarea placeholder='Message' name='message' required></textarea>
+                    </li>
+
+                    <li>
+                        <input type='submit' className='flat-button' value="SEND"/>
+                    </li>
+
+                   
 
                 </ul>
             </form>

@@ -1,1 +1,40 @@
 @import '../../vars.css';
+
+.container{
+    color: var(--color-text);
+}
+
+
+.container h3{
+    text-transform: uppercase;
+    letter-spacing: 1.75px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.container p{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.contactForm{
+    background-color: purple;
+}
+
+.contactFormInputs{
+    margin-left: 5%;
+    
+}
+
+.contactFormInputs ul {
+    background-color: red;
+    list-style: none;
+}
+
+.contactFormInputs ul li, textarea{
+    background-color: green;
+    padding: 5px 0%;
+}
