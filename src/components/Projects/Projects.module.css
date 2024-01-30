@@ -3,6 +3,7 @@
 .container{
     color: var(--color-text);
     margin: 3% 5%;
+    padding: 10px 0px;
     border-radius: 10px;
     background-color: var(--color-dark);
 

@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className={styles.container}>
         <h3>Contact</h3>
-        <p> Fell free to reach out to me! </p>
+        <p> Feel free to reach out to me! </p>
         <div className={styles.contactForm}>
             <form className={styles.contactFormInputs}>
                 <ul>
@@ -27,7 +27,7 @@ function Contact() {
                     </li>
 
                     <li>
-                        <input type='submit' className='flat-button' value="SEND"/>
+                        <input type='submit' className={styles.flatButton} value="SEND"/>
                     </li>
 
                    
