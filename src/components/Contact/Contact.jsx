@@ -1,8 +1,9 @@
 import styles from "./Contact.module.css";
 
-import React from "react";
+import React, {useState} from "react";
 
 function Contact() {
+    const [formError, setFormError] = useState(null);
 
     function sendEmail(e){
         e.preventDefault();
@@ -12,6 +13,12 @@ function Contact() {
             subject : e.target.subject.value,
             message : e.target.message.value,
         };
+        if (!formData.name || !formData.email || !formData.subject || !formData.message){
+            setFormError("Please fill out all fields");
+            return;
+        }
+
+        setFormError(null);
 
         emailjs.send('service_cxbqpxe', 'template_mbjhj3t', formData)
         .then((response) => {
