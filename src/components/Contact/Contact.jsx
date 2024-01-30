@@ -33,7 +33,7 @@ function Contact() {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <div className={styles.containerImage}>
         <h3>Contact</h3>
         <img src={contactImage} alt="contact" />

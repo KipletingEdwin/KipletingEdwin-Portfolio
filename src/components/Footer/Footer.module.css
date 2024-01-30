@@ -1,0 +1,42 @@
+@import '../../vars.css';
+
+.container{
+    background-color: var(--color-dark);
+    /* background-color: red; */
+    margin: 0% 5%;
+    color: #fff;
+}
+
+.socials{
+    /* background-color: green; */
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials a{
+    color: #fff;
+    height: 30px;
+    /* background-color: red; */
+}
+
+.icon{
+    /* background-color: yellow; */
+    margin: 5px;
+    padding: 0px 20px;
+}
+
+.designedBy{
+    background-color: green;
+}
+
+.designedBy p{
+    font-size: 15px;
+}
+
+.designedBy p a{
+    color: blue;
+    text-decoration: none;
+}
