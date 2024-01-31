@@ -47,6 +47,10 @@
         flex-direction: column;
     }
 
+    .myDescription h1{
+        font-size: 40px;
+    }
+
     .myImage{
         align-items: center;
         justify-content: center;
