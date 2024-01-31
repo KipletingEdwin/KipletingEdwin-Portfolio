@@ -29,14 +29,16 @@
 }
 
 .designedBy{
-    background-color: green;
+    text-align: center;
+    justify-content: center;
+    /* background-color: red; */
+    margin-top: 20px;
 }
 
 .designedBy p{
-    font-size: 15px;
+    font-size: 0.7em;
 }
 
 .designedBy p a{
     color: blue;
-    text-decoration: none;
 }
