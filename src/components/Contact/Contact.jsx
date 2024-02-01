@@ -33,7 +33,7 @@ function Contact() {
   }
 
   return (
-    <div className={styles.container} id="contact">
+    <section className={styles.container} id="contact">
       <div className={styles.containerImage}>
         <h3>Contact</h3>
         <img src={contactImage} alt="contact" />
@@ -43,11 +43,17 @@ function Contact() {
         <form className={styles.contactFormInputs} onSubmit={sendEmail}>
           <ul>
             <li>
-              <input type="text" name="name" placeholder="Name" required />
+              <input type="text"
+               name="name"
+                placeholder="Name"
+                 required />
             </li>
 
             <li>
-              <input type="email" name="email" placeholder="Email" required />
+              <input type="email"
+               name="email"
+                placeholder="Email"
+                 required />
             </li>
 
             <li>
@@ -73,7 +79,7 @@ function Contact() {
           </ul>
         </form>
       </div>
-    </div>
+    </section>
   );
 }
 

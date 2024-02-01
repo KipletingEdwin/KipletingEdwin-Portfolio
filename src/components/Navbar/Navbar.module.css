@@ -51,7 +51,7 @@
         position: absolute;
         gap: 11px;
         z-index: 3;
-        margin-right: 7%;
+        /* margin-right: 7%; */
         width: 100%;
         /* background-color: yellow; */
     }
@@ -66,15 +66,21 @@
     .menuItems{
         display: none;
         flex-direction: column;
-        gap: 13px;
+        gap: 23px;
         position: fixed;
         align-items: center;
-        background: rgb(25, 55, 109);
+        /* background: rgb(25, 55, 109); */
+        background: var(--color-dark);
         width: 100vw;
-        opacity: 0.94;
+        opacity: 0.98;
         left: 0;
         /* background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%); */
         padding: 20px 33px;
+    }
+
+    .menuItems a{
+        text-decoration: none;
+        color: var(--color-text);
     }
 
     .menuOpen{

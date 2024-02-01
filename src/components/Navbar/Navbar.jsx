@@ -23,13 +23,13 @@ function Navbar() {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about"></a> About
+            <a href="#about">About</a> 
           </li>
           <li>
-            <a href="#projects"></a> Projects
+            <a href="#projects">Projects</a> 
           </li>
           <li>
-            <a href="#contact"></a> Contact
+            <a href="#contact">Contact</a> 
           </li>
         </ul>
       </div>
