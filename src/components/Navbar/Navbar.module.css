@@ -42,8 +42,6 @@
     .navbar{
         flex-direction: column;
         align-items: flex-start;
-        /* background-color: yellow; */
-        width: 100%;
     }
 
     .menu{
@@ -61,19 +59,22 @@
     .menuBtn{
         display: block;
         cursor: pointer;
+        position: relative;
+        z-index: 2;
     }
 
     .menuItems{
         display: none;
         flex-direction: column;
         gap: 13px;
+        position: fixed;
         align-items: center;
         background: rgb(25, 55, 109);
-        width: 100%;
+        width: 100vw;
         opacity: 0.94;
+        left: 0;
         /* background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%); */
         padding: 20px 33px;
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25 ); 
     }
 
     .menuOpen{
