@@ -14,9 +14,7 @@ function About() {
             <img src={frontend} alt="frontend" />
             <div className={styles.aboutItemText}>
               <h3> FrontEnd Developer</h3>
-              <p>
-                I am a frontend developer majoring in JavaScript and React
-              </p>
+              <p>I am a frontend developer majoring in JavaScript and React</p>
             </div>
           </li>
 
@@ -24,9 +22,7 @@ function About() {
             <img src={server} alt="backend" />
             <div className={styles.aboutItemText}>
               <h3> BackEnd Developer</h3>
-              <p>
-                I am a backend developer majoring in Ruby and Ruby on Rails
-              </p>
+              <p>I am a backend developer majoring in Ruby and Ruby on Rails</p>
             </div>
           </li>
         </ul>

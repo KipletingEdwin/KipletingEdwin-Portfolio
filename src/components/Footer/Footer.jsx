@@ -36,9 +36,14 @@ function Footer() {
         </a>
       </div>
       <div className={styles.designedBy}>
-        <p> Designed and build by <a href="https://www.linkedin.com/in/kipleting-edwin-25a513120/">Kipleting Edwin</a></p>
+        <p>
+          {" "}
+          Designed and build by{" "}
+          <a href="https://www.linkedin.com/in/kipleting-edwin-25a513120/">
+            Kipleting Edwin
+          </a>
+        </p>
         <p> Copyright 2021 .All rights reserved.</p>
-
       </div>
     </div>
   );
