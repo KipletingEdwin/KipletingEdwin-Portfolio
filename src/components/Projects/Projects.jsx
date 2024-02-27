@@ -14,6 +14,8 @@ function Projects() {
               <img src={project.imageSrc} alt={`Image of ${project.title}`} />
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              <a href="https://ack-st-james-koromosho.netlify.app/" target="_blank" rel="noopener noreferrer">Link</a>
+              <a href="https://github.com/KipletingEdwin/Koromosho" target="_blank" rel="noopener noreferrer">Source Code</a>
             </div>
           );
         })}

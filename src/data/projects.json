@@ -8,12 +8,12 @@
       "source": "https://github.com/KipletingEdwin/Koromosho"
     },
     {
-      "title": "Project B",
-      "imageSrc": "../../src/assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Jumia Kenya Clone",
+      "imageSrc": "../../src/assets/projects/jumia-kenya.png",
+      "description": "This is a clone of Jumia Kenya- platform known for buying items",
+      "skills": ["React", "Ruby on Rails", "PostgreSQL "],
+      "demo": "https://jumia-kenya.netlify.app/",
+      "source": "https://github.com/KipletingEdwin/Jumia-Kenya"
     },
     {
       "title": "Project C",
